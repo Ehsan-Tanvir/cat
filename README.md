@@ -11,7 +11,7 @@ CAT is designed for teachers and students to manage attendance effortlessly. Tea
 - **Real-Time Updates** – Prevents duplicate roll numbers and updates count live.  
 - **Automated PDF Reports** – Saves attendance records in the device’s Downloads Directory.  
 
-## 🚀 Installation  
+🛠️ Setup Guide  
 1. Clone the repository:  
    ```sh
    git clone https://github.com/Ehsan-Tanvir/CAT.git
@@ -29,4 +29,16 @@ CAT is designed for teachers and students to manage attendance effortlessly. Tea
    flutter run
    ```
 
+## 📺 Build APK
+To generate an APK file and install it on your device, follow these steps:
+
+1. Run the following command:
+ ```sh
+flutter build apk --build-name=1.0 --build-number=1
+```
+This will generate a release APK at:
+ ```sh
+build/app/outputs/flutter-apk/app-release.apk
+```
+2. Move the APK to your phone and install it manually.
 
