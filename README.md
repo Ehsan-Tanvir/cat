@@ -1,7 +1,7 @@
-# CAT 🐱
+# cat 🐱
 
 ## Overview  
-**CAT** is an offline mobile app for seamless attendance management. It allows teachers to create sessions where students enter their roll numbers directly on the teacher's device. The app generates attendance reports as PDFs and works entirely offline.
+**cat** is an offline, cross-platform mobile app build in flutter for seamless attendance management. It allows teachers to create sessions where students enter their roll numbers directly on the teacher's device. The app generates attendance reports as PDFs and works entirely offline.
 
 ## Features  
 - **Offline Accessibility** – No internet required.
@@ -16,11 +16,11 @@
 ### Steps  
 1. Clone the repository:  
    ```sh
-   git clone https://github.com/Ehsan-Tanvir/CAT.git
+   git clone https://github.com/Ehsan-Tanvir/cat.git
    ```
 2. Navigate to the project folder:
    ```sh
-   cd CAT
+   cd cat
    ```
 3. Install dependencies:
    ```sh
