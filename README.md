@@ -1,17 +1,19 @@
-# CAT 🐱  
+# CAT 🐱
 
-**An offline mobile app for seamless attendance management.**  
+## Overview  
+**CAT** is an offline mobile app for seamless attendance management. It allows teachers to create sessions where students enter their roll numbers directly on the teacher's device. The app generates attendance reports as PDFs and works entirely offline.
 
-## 📌 About  
-CAT is designed for teachers and students to manage attendance effortlessly. Teachers can create sessions, and students can enter their roll numbers directly on the teacher’s device. The app works entirely offline and generates attendance reports as PDFs.  
+## Features  
+- **Offline Accessibility** – No internet required.
+- **Easy Attendance Tracking** – Teachers create sessions with student count validation.
+- **Real-Time Updates** – Prevents duplicate roll numbers and updates count live.
+- **Automated PDF Reports** – Saves attendance records in the device’s Downloads Directory.
 
-## ✨ Features  
-- **Offline Accessibility** – Works without internet.  
-- **Easy Attendance Tracking** – Teachers set up sessions with student count validation.  
-- **Real-Time Updates** – Prevents duplicate roll numbers and updates count live.  
-- **Automated PDF Reports** – Saves attendance records in the device’s Downloads Directory.  
+## Setup & Installation  
+### Prerequisites  
+- **Flutter SDK** installed on your machine.
 
-## 🛠️ Setup Guide  
+### Steps  
 1. Clone the repository:  
    ```sh
    git clone https://github.com/Ehsan-Tanvir/CAT.git
@@ -29,16 +31,14 @@ CAT is designed for teachers and students to manage attendance effortlessly. Tea
    flutter run
    ```
 
-## 📺 Build APK
-To generate an APK file and install it on your device, follow these steps:
-
-1. Run the following command:
- ```sh
+## Building APK  
+To generate an APK file:
+```sh
 flutter build apk --build-name=1.0 --build-number=1
 ```
 This will generate a release APK at:
- ```sh
+```sh
 build/app/outputs/flutter-apk/app-release.apk
 ```
-2. Move the APK to your phone and install it manually.
 
+---
